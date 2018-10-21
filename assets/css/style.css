@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+.header{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+
+}
+.header{
+    display:block;
+    text-align: center;
+    padding: 18px 10px 18px 10px;
+}
+h1{
+    padding:0;
+    margin:0;
+    color: #4aaaa5;
+    font-family: 'Monsterrat', sans-serif;
+}
+.Title{
+    background-color: #4aaaa5;
+    padding:15px;
+    width: 275px;
+    text-align: center;
+    float: left;
+}
+.Title h1{
+    color: white;
+    font-size: 25px;
+}
+.headerS{
+    background-color: #ffffff;
+    padding: 0px 150px 0px 150px;
+    border-bottom: 1px solid;
+    border-color: #cccccc;
+    overflow:auto;
+    margin:0;
+    text-align: center;
+
+}
+.SecondS{
+    padding: 30px;
+    clear:both;
+    width:960px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+
+}
+.Info img{
+    float:left;
+    margin: 15px 15px 15px 0px;
+}
+.Info{
+    color:#777777;
+    line-height: 150%;
+
+    overflow: hidden;
+}
+.AboutMe{
+    Padding:15px 0px 15px 0px;
+
+}
+body{
+    background-image: url(../images/pipes.png) ;  
+    margin:0;
+
+}
+.FooterS{
+    margin-top: 50px;
+    display: block;
+    background-color: #666666;
+    border-color:#4aaaa5;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    font-size: 12px;
+}
+.Contact{
+  
+    border: 1px solid #dddddd;
+    width: 100%;
+    border-radius: 3px;
+    height: 20px;
+}
+.Message{
+    height: 70px;
+    margin-bottom:5px;
+
+}
+@media only screen and (max-width: 980px) {
+    .SecondS{
+        width:900px;
+        
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .SecondS{
+        width:668px;
+        
+    }
+    .headerS{
+        padding:0 50px 0px 50px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .headerS{
+        position: static;
+        padding:0 185px 0px 190px;
+    }
+    .SecondS{
+        width:600px;
+        padding: 15px;
+    }
+}
